@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class MObileHealthController : MonoBehaviour
 {
     public float playerHealth;
+    public GameObject[] cornSprite;
 
     [SerializeField] private Text HealthText;
 
@@ -18,4 +19,27 @@ public class MObileHealthController : MonoBehaviour
         HealthText.text = playerHealth.ToString("0");
     }
 
+    void FixedUpdate()
+    {
+        if (playerHealth < 1)
+        {
+            cornSprite[0].SetActive(false);
+        }
+        else if (playerHealth < 2)
+        {
+            cornSprite[(1)].SetActive(false);
+        }
+        else if (playerHealth < 3)
+        {
+            cornSprite[(2)].SetActive(false);
+        }
+        else if (playerHealth < 4)
+        {
+            cornSprite[(3)].SetActive(false);
+        }
+        else if (playerHealth < 5)
+        {
+            cornSprite[(4)].SetActive(false);
+        }
+    }
 }

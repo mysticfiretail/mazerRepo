@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Pickup
   - Box
+  - Health
+  - Hazards
   layers:
   - Default
   - TransparentFX
