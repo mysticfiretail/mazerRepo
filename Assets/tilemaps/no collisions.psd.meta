@@ -1,79 +1,79 @@
 fileFormatVersion: 2
-guid: 48400fec5228b4e40a8ae3cf00087750
+guid: 364172d0aeb64814eb946afc3477b4eb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7559275434773349669
-    second: TileMapBox (1)_0
+      213: 774939451247075822
+    second: TileMapBox_0
   - first:
-      213: 5739930883557019118
-    second: TileMapBox (1)_1
+      213: 7789504548362521838
+    second: TileMapBox_1
   - first:
-      213: -5293558624714714169
-    second: TileMapBox (1)_2
+      213: -7097758258103963855
+    second: TileMapBox_2
   - first:
-      213: -8478549638897940809
-    second: TileMapBox (1)_3
+      213: 7505378451100052627
+    second: TileMapBox_3
   - first:
-      213: -5407966443560102788
-    second: TileMapBox (1)_4
+      213: 4125415907762473342
+    second: TileMapBox_4
   - first:
-      213: 3684856178568894591
-    second: TileMapBox (1)_5
+      213: 2141382002396619372
+    second: TileMapBox_5
   - first:
-      213: 7852131112803823392
-    second: TileMapBox (1)_6
+      213: -4397567832521058791
+    second: TileMapBox_6
   - first:
-      213: -5729971094356543388
-    second: TileMapBox (1)_7
+      213: -2067981758468626157
+    second: TileMapBox_7
   - first:
-      213: -926856311618320600
-    second: TileMapBox (1)_8
+      213: 8008360763836555299
+    second: TileMapBox_8
   - first:
-      213: -4799671113177420491
-    second: TileMapBox (1)_9
+      213: 4932747987793377722
+    second: TileMapBox_9
   - first:
-      213: -2944085276154146595
-    second: TileMapBox (1)_10
+      213: -3192367518969453288
+    second: TileMapBox_10
   - first:
-      213: -214145583791554668
-    second: TileMapBox (1)_11
+      213: 2960338820885906255
+    second: TileMapBox_11
   - first:
-      213: -4334208414741478659
-    second: TileMapBox (1)_12
+      213: 2713588318851402853
+    second: TileMapBox_12
   - first:
-      213: 6346654097747932659
-    second: TileMapBox (1)_13
+      213: -6851438796535907228
+    second: TileMapBox_13
   - first:
-      213: 3376828828113281315
-    second: TileMapBox (1)_14
+      213: 5787317827805658753
+    second: TileMapBox_14
   - first:
-      213: -3165737222872155242
-    second: TileMapBox (1)_15
+      213: 345040087447111440
+    second: TileMapBox_15
   - first:
-      213: -7843538602273536354
-    second: TileMapBox (1)_16
+      213: 1099471052471834268
+    second: TileMapBox_16
   - first:
-      213: -1114803847926591408
-    second: TileMapBox (1)_17
+      213: -2694378283108209583
+    second: TileMapBox_17
   - first:
-      213: -8966068652976207633
-    second: TileMapBox (1)_18
+      213: 3873274999076180064
+    second: TileMapBox_18
   - first:
-      213: -1882505242699987737
-    second: TileMapBox (1)_19
+      213: -7214746944339109684
+    second: TileMapBox_19
   - first:
-      213: 8532235451642202443
-    second: TileMapBox (1)_20
+      213: 3608173937668909051
+    second: TileMapBox_20
   - first:
-      213: 7133065544158024286
-    second: TileMapBox (1)_21
+      213: 8601853671096737925
+    second: TileMapBox_21
   - first:
-      213: -3687784093624544735
-    second: TileMapBox (1)_22
+      213: -6760246789971367438
+    second: TileMapBox_22
   - first:
-      213: -4896767620989480032
-    second: TileMapBox (1)_23
+      213: 6257023002107461026
+    second: TileMapBox_23
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -171,7 +171,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TileMapBox (1)_0
+      name: TileMapBox_0
       rect:
         serializedVersion: 2
         x: 0
@@ -183,22 +183,22 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
+      - - {x: -12, y: 12}
         - {x: -12, y: -16}
-        - {x: -12, y: 12}
-        - {x: 16, y: 12}
+        - {x: -16, y: -16}
+        - {x: -16, y: 16}
         - {x: 16, y: 16}
+        - {x: 16, y: 12}
       tessellationDetail: 0
       bones: []
-      spriteID: 525800905f0f7e860800000000000000
-      internalID: 7559275434773349669
+      spriteID: ee1a40a335321ca00800000000000000
+      internalID: 774939451247075822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_1
+      name: TileMapBox_1
       rect:
         serializedVersion: 2
         x: 32
@@ -218,14 +218,14 @@ TextureImporter:
         - {x: 16, y: -16}
       tessellationDetail: 0
       bones: []
-      spriteID: eedc5b52ab458af40800000000000000
-      internalID: 5739930883557019118
+      spriteID: eec007dbd11e91c60800000000000000
+      internalID: 7789504548362521838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_2
+      name: TileMapBox_2
       rect:
         serializedVersion: 2
         x: 64
@@ -239,14 +239,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c39c203a708986b0800000000000000
-      internalID: -5293558624714714169
+      spriteID: 13f2e144872bf7d90800000000000000
+      internalID: -7097758258103963855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_3
+      name: TileMapBox_3
       rect:
         serializedVersion: 2
         x: 96
@@ -261,21 +261,21 @@ TextureImporter:
       - - {x: -16, y: -16}
         - {x: -16, y: 16}
         - {x: -11, y: 16}
-        - {x: -11, y: -16}
+        - {x: -11, y: -15}
       - - {x: 11, y: -16}
         - {x: 11, y: 16}
         - {x: 16, y: 16}
         - {x: 16, y: -16}
       tessellationDetail: 0
       bones: []
-      spriteID: 7b6c8f25604265a80800000000000000
-      internalID: -8478549638897940809
+      spriteID: 39ca0b2afe5782860800000000000000
+      internalID: 7505378451100052627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_4
+      name: TileMapBox_4
       rect:
         serializedVersion: 2
         x: 128
@@ -289,14 +289,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c741e561c2b03f4b0800000000000000
-      internalID: -5407966443560102788
+      spriteID: e798de429eb604930800000000000000
+      internalID: 4125415907762473342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_5
+      name: TileMapBox_5
       rect:
         serializedVersion: 2
         x: 160
@@ -318,14 +318,14 @@ TextureImporter:
         - {x: 16, y: -16}
       tessellationDetail: 0
       bones: []
-      spriteID: f789004db2d332330800000000000000
-      internalID: 3684856178568894591
+      spriteID: c62e34de597b7bd10800000000000000
+      internalID: 2141382002396619372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_6
+      name: TileMapBox_6
       rect:
         serializedVersion: 2
         x: 0
@@ -345,14 +345,14 @@ TextureImporter:
         - {x: 16, y: -16}
       tessellationDetail: 0
       bones: []
-      spriteID: 02fe67c05af58fc60800000000000000
-      internalID: 7852131112803823392
+      spriteID: 916d5ea0b53b8f2c0800000000000000
+      internalID: -4397567832521058791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_7
+      name: TileMapBox_7
       rect:
         serializedVersion: 2
         x: 32
@@ -372,14 +372,14 @@ TextureImporter:
         - {x: 16, y: -16}
       tessellationDetail: 0
       bones: []
-      spriteID: 4683f9bf5ad0b70b0800000000000000
-      internalID: -5729971094356543388
+      spriteID: 3196d7c1c8d0d43e0800000000000000
+      internalID: -2067981758468626157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_8
+      name: TileMapBox_8
       rect:
         serializedVersion: 2
         x: 64
@@ -393,14 +393,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 827492468152323f0800000000000000
-      internalID: -926856311618320600
+      spriteID: 32067a14fa9632f60800000000000000
+      internalID: 8008360763836555299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_9
+      name: TileMapBox_9
       rect:
         serializedVersion: 2
         x: 96
@@ -414,14 +414,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53d2b546d84246db0800000000000000
-      internalID: -4799671113177420491
+      spriteID: ab972faf824a47440800000000000000
+      internalID: 4932747987793377722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_10
+      name: TileMapBox_10
       rect:
         serializedVersion: 2
         x: 128
@@ -435,14 +435,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd0df5e2a028427d0800000000000000
-      internalID: -2944085276154146595
+      spriteID: 815a457c7ae62b3d0800000000000000
+      internalID: -3192367518969453288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_11
+      name: TileMapBox_11
       rect:
         serializedVersion: 2
         x: 160
@@ -453,25 +453,17 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: -16}
-        - {x: -16, y: -11.700287}
-        - {x: -4, y: -12}
-        - {x: -4, y: 12}
-        - {x: -16, y: 12}
-        - {x: -16, y: 16}
-        - {x: 16, y: 16}
-        - {x: 16, y: -16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49fb2e3e9b3370df0800000000000000
-      internalID: -214145583791554668
+      spriteID: f4304b9197c351920800000000000000
+      internalID: 2960338820885906255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_12
+      name: TileMapBox_12
       rect:
         serializedVersion: 2
         x: 0
@@ -482,21 +474,17 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 12}
-        - {x: -16, y: 16}
-        - {x: 16, y: 16}
-        - {x: 16, y: 12}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df243d0196cc9d3c0800000000000000
-      internalID: -4334208414741478659
+      spriteID: 56c89c3e23a98a520800000000000000
+      internalID: 2713588318851402853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_13
+      name: TileMapBox_13
       rect:
         serializedVersion: 2
         x: 32
@@ -507,21 +495,17 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: 12, y: -16}
-        - {x: 12, y: 16}
-        - {x: 16, y: 16}
-        - {x: 16, y: -16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f5fa80a648d31850800000000000000
-      internalID: 6346654097747932659
+      spriteID: 46cb52c07bccae0a0800000000000000
+      internalID: -6851438796535907228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_14
+      name: TileMapBox_14
       rect:
         serializedVersion: 2
         x: 64
@@ -535,14 +519,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 321adfe8de7ecde20800000000000000
-      internalID: 3376828828113281315
+      spriteID: 18e34a0e6eea05050800000000000000
+      internalID: 5787317827805658753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_15
+      name: TileMapBox_15
       rect:
         serializedVersion: 2
         x: 96
@@ -556,14 +540,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69b3972c4ca0114d0800000000000000
-      internalID: -3165737222872155242
+      spriteID: 0170e85a124d9c400800000000000000
+      internalID: 345040087447111440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_16
+      name: TileMapBox_16
       rect:
         serializedVersion: 2
         x: 128
@@ -577,14 +561,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e960c65b237262390800000000000000
-      internalID: -7843538602273536354
+      spriteID: c969863d81b124f00800000000000000
+      internalID: 1099471052471834268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_17
+      name: TileMapBox_17
       rect:
         serializedVersion: 2
         x: 160
@@ -598,14 +582,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 050d81a8ecb6780f0800000000000000
-      internalID: -1114803847926591408
+      spriteID: 15ceec81a35ab9ad0800000000000000
+      internalID: -2694378283108209583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_18
+      name: TileMapBox_18
       rect:
         serializedVersion: 2
         x: 0
@@ -616,21 +600,17 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: -16}
-        - {x: -16, y: 16}
-        - {x: -12, y: 16}
-        - {x: -12, y: -16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe8869b7010229380800000000000000
-      internalID: -8966068652976207633
+      spriteID: 06056551713a0c530800000000000000
+      internalID: 3873274999076180064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_19
+      name: TileMapBox_19
       rect:
         serializedVersion: 2
         x: 32
@@ -641,21 +621,17 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: -16}
-        - {x: -16, y: -12}
-        - {x: 16, y: -12}
-        - {x: 16, y: -16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e48e09a47fffd5e0800000000000000
-      internalID: -1882505242699987737
+      spriteID: cc8155621e110eb90800000000000000
+      internalID: -7214746944339109684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_20
+      name: TileMapBox_20
       rect:
         serializedVersion: 2
         x: 64
@@ -669,14 +645,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b49c02300f6986670800000000000000
-      internalID: 8532235451642202443
+      spriteID: bf7e392541fc21230800000000000000
+      internalID: 3608173937668909051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_21
+      name: TileMapBox_21
       rect:
         serializedVersion: 2
         x: 96
@@ -687,21 +663,17 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -1, y: -9}
-        - {x: -1, y: -4}
-        - {x: 10, y: -4}
-        - {x: 10, y: -9}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e521e1fd15dbdf260800000000000000
-      internalID: 7133065544158024286
+      spriteID: 5806c9bd65cef5770800000000000000
+      internalID: 8601853671096737925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_22
+      name: TileMapBox_22
       rect:
         serializedVersion: 2
         x: 128
@@ -715,14 +687,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1225c23d7eb52dcc0800000000000000
-      internalID: -3687784093624544735
+      spriteID: 2f928c1ac57ce22a0800000000000000
+      internalID: -6760246789971367438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMapBox (1)_23
+      name: TileMapBox_23
       rect:
         serializedVersion: 2
         x: 160
@@ -736,8 +708,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a3994bfacf2b0cb0800000000000000
-      internalID: -4896767620989480032
+      spriteID: 2ad3010f44965d650800000000000000
+      internalID: 6257023002107461026
       vertices: []
       indices: 
       edges: []

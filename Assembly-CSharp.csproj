@@ -55,16 +55,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\NewPlayerMov.cs" />
      <Compile Include="Assets\scripts\CameraMov.cs" />
      <Compile Include="Assets\scripts\KeyDoor.cs" />
      <Compile Include="Assets\scripts\MObileHealthController.cs" />
      <Compile Include="Assets\scripts\MobileDamageController.cs" />
      <Compile Include="Assets\scripts\NewBehaviourScript.cs" />
+     <Compile Include="Assets\scripts\NewPlayerMov.cs" />
      <Compile Include="Assets\scripts\cornHearts.cs" />
      <Compile Include="Assets\scripts\key.cs" />
      <Compile Include="Assets\scripts\keyholder.cs" />
      <Compile Include="Assets\scripts\pickupObj.cs" />
+     <Compile Include="Assets\scripts\sceneTransition.cs" />
+     <Compile Include="Assets\scripts\vectorValue.cs" />
      <None Include="Assets\SpriteShadow.shader" />
      <None Include="Assets\NewSurfaceShader.shader" />
  <Reference Include="UnityEngine">

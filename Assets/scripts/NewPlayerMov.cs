@@ -5,6 +5,19 @@ using UnityEngine;
 public class NewPlayerMov : MonoBehaviour
 {
     public Animator animator;
+    public vectorValue startingPosition;
+
+
+    void Start()
+    {
+       
+
+    }
+
+    void setPlayerCor()
+    {
+        transform.position = startingPosition.initialValue;
+    }
 
     void Update()
     {

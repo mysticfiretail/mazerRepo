@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-
+    public vectorValue startingPosition;
     public float speed;
 
     private Rigidbody2D rb2d;
@@ -12,6 +12,7 @@ public class NewBehaviourScript : MonoBehaviour
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        transform.position = startingPosition.initialValue;
     }
 
     // Update is called once per frame

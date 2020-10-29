@@ -7,6 +7,10 @@ public class KeyDoor : MonoBehaviour
 {
 
     [SerializeField] private key.KeyType keyType;
+    public string sceneToLoad;
+    public Vector2 playerPosition;
+    public vectorValue playerStorage;
+    public NewPlayerMov positionPlayer;
 
     public key.KeyType GetKeyType()
     {
@@ -15,21 +19,25 @@ public class KeyDoor : MonoBehaviour
 
     public void OpenDoor(key.KeyType keyType)
     {
+       
+
       //  gameObject.SetActive(false);
      if (keyType == key.KeyType.red)
         {
-            SceneManager.LoadScene(2);
+            //setPlayerCor();
+            playerStorage.initialValue = playerPosition;
+            SceneManager.LoadScene(sceneToLoad);
         }
     
 
       if (keyType == key.KeyType.green)
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(sceneToLoad);
         }
 
         if (keyType == key.KeyType.blue)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(sceneToLoad);
         }
     }
 
