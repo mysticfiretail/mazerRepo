@@ -6,7 +6,7 @@ using UnityEngine;
 public class Box : MonoBehaviour
 {
     SpriteRenderer boxitself;
-    Sprite OffCross;
+    public Sprite OffCross;
     public Sprite OnCross;
 
     void Start()
@@ -21,4 +21,5 @@ public class Box : MonoBehaviour
             boxitself.sprite = OnCross;
         }
     }
+    
 }

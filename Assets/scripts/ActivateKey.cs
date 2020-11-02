@@ -6,23 +6,25 @@ using UnityEngine;
 public class ActivateKey : MonoBehaviour
 {
     public GameObject key;
-    private Level level;
+    [SerializeField] private Level level;
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        key = GameObject.Find("MainKey");
+        key = GameObject.FindGameObjectWithTag("MainKey");
     }
 
     // Update is called once per frame
-    /*void Update()
+    private void Update()
     {
         if (level.levelcomplete == true)
         {
+            Debug.Log("Key activate");
             key.SetActive(true);
         }
         else
         {
+            Debug.Log(level.levelcomplete);
             key.SetActive(false);
         }
-    }*/
+    }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Target : MonoBehaviour
 {
-    public bool m_BoxOnCross;
+  public bool m_BoxOnCross;
   void OnTriggerStay2D(Collider2D other)
     {
         if(other.tag== "Box")

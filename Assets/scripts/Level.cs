@@ -4,28 +4,32 @@ using UnityEngine;
 
 public class Level : MonoBehaviour
 {
-    private void awake()
-    {
-        levelcomplete = false;
-    }
     public bool levelcomplete;
+    
 
     public void IsLevelComplete()
     {
+        int box=0, boxtotal = 9;
         Target[] targets = FindObjectsOfType<Target>();
-        foreach (var target in targets)
+        foreach (var tar in targets)
         {
-            if (!target.m_BoxOnCross)
+            if (!tar.m_BoxOnCross)
             {
                 levelcomplete=  false;
             }
-            else
-            {
-                levelcomplete = true;
+            else { 
+                box++;
+                if(box == boxtotal)
+                {
+                    levelcomplete = true;
+                }
             }
-
+  
         }
         
     }// Start is called before the first frame update
-
+    private void Update()
+    {
+        IsLevelComplete(); 
+    }
 }

@@ -9,6 +9,7 @@ TagManager:
   - Health
   - Hazards
   - Target
+  - MainKey
   layers:
   - Default
   - TransparentFX
