@@ -16,14 +16,17 @@ public class ActivateKey : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
-        level.IsLevelComplete();
-        if (level.levelcomplete == true)
+        if (key != null)
         {
-            key.SetActive(true);
-        }
-        else
-        {
-            key.SetActive(false);
+            level.IsLevelComplete();
+            if (level.levelcomplete == true)
+            {
+                key.SetActive(true);
+            }
+            else
+            {
+                key.SetActive(false);
+            }
         }
     }
 }
