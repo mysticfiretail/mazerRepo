@@ -9,7 +9,7 @@ public class Level : MonoBehaviour
 
     public void IsLevelComplete()
     {
-        int box=0, boxtotal = 9;
+        int box=0, boxtotal = 10;
         Target[] targets = FindObjectsOfType<Target>();
         foreach (var tar in targets)
         {
@@ -21,10 +21,10 @@ public class Level : MonoBehaviour
                 box++;
                 if(box == boxtotal)
                 {
+                    //Debug.Log("set level finished to true!");
                     levelcomplete = true;
                 }
             }
-  
         }
         
     }// Start is called before the first frame update
