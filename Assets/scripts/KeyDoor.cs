@@ -25,19 +25,19 @@ public class KeyDoor : MonoBehaviour
      if (keyType == key.KeyType.red)
         {
             //setPlayerCor();
-            playerStorage.initialValue = playerPosition;
-            SceneManager.LoadScene(sceneToLoad);
+           // playerStorage.initialValue = playerPosition;
+            SceneManager.LoadScene(2);
         }
     
 
       if (keyType == key.KeyType.green)
         {
-            SceneManager.LoadScene(sceneToLoad);
+            SceneManager.LoadScene(3);
         }
 
         if (keyType == key.KeyType.blue)
         {
-            SceneManager.LoadScene(sceneToLoad);
+            SceneManager.LoadScene(4);
         }
     }
 
