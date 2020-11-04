@@ -5,7 +5,7 @@ using UnityEngine;
 public class keyholder : MonoBehaviour
 {
 
-    private List<key.KeyType> keyList;
+    public List<key.KeyType> keyList;
 
     private void Awake()
     {
