@@ -53,13 +53,20 @@ public class keyholder : MonoBehaviour
             {
                 Debug.Log("opening door " + key.KeyType.red);
                 keyDoor.OpenDoor(key.KeyType.red);
+
             }
             if (keyDoor.name == "MainDoor" && ContainsKey(key.KeyType.blue))
             {
                 Debug.Log("opening door " + key.KeyType.blue);
                 keyDoor.OpenDoor(key.KeyType.blue);
             }
-        }
-    }
 
+            if (keyDoor.name == "SpawnDoor (1)" && ContainsKey(key.KeyType.rRoom))
+            {
+                Debug.Log("opening door " + key.KeyType.rRoom);
+                keyDoor.OpenDoor(key.KeyType.rRoom);
+            }
+        }
+
+    }
 }

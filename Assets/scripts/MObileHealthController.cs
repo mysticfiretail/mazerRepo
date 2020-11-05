@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MObileHealthController : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class MObileHealthController : MonoBehaviour
         if (playerHealth < 1)
         {
             cornSprite[0].SetActive(false);
+            SceneManager.LoadScene("GameOver");
         }
         else if (playerHealth < 2)
         {

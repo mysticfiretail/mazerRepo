@@ -11,6 +11,7 @@ public class KeyDoor : MonoBehaviour
     public Vector2 playerPosition;
     public vectorValue playerStorage;
     public NewPlayerMov positionPlayer;
+  //  public finalKey keyActivate; 
 
     public key.KeyType GetKeyType()
     {
@@ -26,18 +27,32 @@ public class KeyDoor : MonoBehaviour
         {
             //setPlayerCor();
            // playerStorage.initialValue = playerPosition;
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
+            LevelManager.instance.mmSpawnPoint();
         }
     
 
       if (keyType == key.KeyType.green)
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(4);
         }
 
         if (keyType == key.KeyType.blue)
         {
-            SceneManager.LoadScene(4);
+           // keyActivate.spawnFinalKey();
+            SceneManager.LoadScene(2);
+           
+        }
+
+        if (keyType == key.KeyType.bxRoom)
+        {
+            SceneManager.LoadScene(2);
+            GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(0.46f, 10.5f, 0);
+        }
+
+        if (keyType == key.KeyType.rRoom)
+        {
+            SceneManager.LoadScene("WIN");
         }
     }
 

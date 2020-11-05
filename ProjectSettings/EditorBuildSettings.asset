@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+    guid: 3496511cd8aab8d48a3a61ebf4186a38
+  - enabled: 1
     path: Assets/Scenes/SpawnRoom.unity
     guid: 221e475c3076cfa49afa2ce87594351d
   - enabled: 1
@@ -20,4 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestingRoom.unity
     guid: 17e45240970ffa3418c964c9e5350d93
+  - enabled: 1
+    path: Assets/Scenes/End Screen.unity
+    guid: aff5ae715af97ae44b684fa4c6120332
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 4889034fb36b91c49adf8f697651c1a2
+  - enabled: 1
+    path: Assets/Scenes/WIN.unity
+    guid: d723260fe7033aa48b0024358713ce3a
   m_configObjects: {}

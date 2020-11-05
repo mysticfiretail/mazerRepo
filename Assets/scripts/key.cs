@@ -13,7 +13,9 @@ public class key : MonoBehaviour
         red,
         green,
         blue,
-        spawn
+        spawn,
+        bxRoom,
+        rRoom
 
     }
 
