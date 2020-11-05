@@ -15,6 +15,7 @@ public class menuScript : MonoBehaviour
             break;
 
             case "Options":
+                SceneManager.LoadScene("Options");
                 break;
         }
 
